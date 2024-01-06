@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Kadwa&family=Roboto:wght@700&display=swap');
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    max-width: 1180px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bigcard {
+    border-radius: 8px;
+    width: 319.958px;
+    height: 247.4px;
+}
+
+.bigcard img {
+    width: 100%;
+    height: 190.974px;
+    border-radius: 6.856px;
+}
+
+.card img {
+    width: 100%;
+    object-fit: cover;
+    width: 319.958px;
+    height: 199.974px;
+    flex-shrink: 0;
+}
+
+.action-button {
+    display: block;
+    margin: 20px auto;
+    padding: 15px 30px;
+    font-size: 16px;
+    background-color: #F35422;
+    color: white;
+    border: none;
+    border-radius: 53px;
+    cursor: pointer;
+
+
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+
+/* padding: 26px 23px 26px 24px; */
+}
+
+.role {
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
+}
+
+.role h2 {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 7.902px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.role h2::before {
+    content: "•";
+    padding-right: 4px;
+}
+
+
+.companyname {
+    color: #0F1733;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22.854px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: 10px;
+}
+
+.yourb {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.yourb h1 {
+    color: #000;
+    font-family: Inter;
+    font-size: 91.364px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.yourb h2 {
+    color: #0F1733;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: -70px;
+}
+
+
+@media screen and (max-width: 767px) {
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        max-width: 1180px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+ }

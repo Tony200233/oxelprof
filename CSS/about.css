@@ -1,0 +1,149 @@
+  
+.nav3 {
+    background-color: #fff;
+    height: 100vh;
+    width: 200px;
+    color: #fff;
+    padding-top: 20px;
+    position: fixed;
+    border-right: 2px solid #D5D5D5;
+    margin-top: 75px;
+}
+
+.nav3 a {
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    transition: background 0.3s;
+    color: var(--Grey-700, #586A84);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nav3 a.highlighted {
+    background-color: #ECECEC;
+    color: #333;
+}
+
+.nav3 svg {
+    margin-right: 8px;
+    vertical-align: middle;
+
+}
+
+.nav3 a:hover {
+    background-color: #555;
+}
+
+.content {
+    margin-left: 200px;
+    padding: 20px;
+}
+
+.content p {
+    width: 940px;
+margin-top: 110px;
+    color: #5E5353;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 54.359px;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+
+.skills {
+    margin-top: 20px;
+}
+
+.skill {
+    margin-bottom: 10px;
+}
+
+.skill-name {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.progress-bar {
+    background-color: #ddd;
+    height: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.progress {
+    background-color: #4caf50;
+    height: 100%;
+}
+
+.tooltip {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 14px;
+    display: none;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .nav3 {
+        background-color: #fff;
+        height: 60px;
+        width: 100vw;
+        display: flex;
+        color: #fff;
+        padding-top: 10px;
+        position: fixed;
+        border-bottom: 2px solid #D5D5D5;
+    }
+
+    .nav3 a:hover {
+        background-color: transparent;
+        color: #555;
+    }
+
+
+    .nav3 svg {
+        margin-right: 8px;
+        vertical-align: middle;
+    
+    }
+
+    .content {
+        margin-left: 7px;
+        padding: 20px;
+    } 
+    
+    
+    .content p {
+        width: 340px;
+        margin-top: 140px;
+
+        color: #5E5353;
+        font-family: Inter;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20.359px;
+    }
+
+    .hidden {
+        display: none;
+    }
+}
